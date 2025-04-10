@@ -6,13 +6,13 @@ function App() {
 
   return (
     <>
-      <div className='h-screen bg-neutral-600 w-full flex items-center '>
+      {/* <div className='h-screen bg-neutral-600 w-full flex items-center '>
         <Sidebar></Sidebar>
         <div>
-          <EventCard></EventCard>
-          {/* <Button text='Submit'></Button> */}
+          // {/* <Button text='Submit'></Button> 
         </div>
-      </div>
+      </div> */}
+          <EventCard></EventCard>
     </>
   )
 }
