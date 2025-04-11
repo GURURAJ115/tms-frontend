@@ -1,5 +1,6 @@
 import './App.css'
 import { EventCard } from './components/events/EventCard'
+import { Navbar } from './components/shared/Navigation/Navbar'
 import { Sidebar } from './components/shared/Navigation/Sidebar'
 import {Button} from "./components/shared/UI/Button"
 function App() {
@@ -12,7 +13,8 @@ function App() {
           // {/* <Button text='Submit'></Button> 
         </div>
       </div> */}
-          <EventCard></EventCard>
+          {/* <EventCard></EventCard> */}
+          <Navbar></Navbar>
     </>
   )
 }
